@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @import url('https://fonts.google.com/specimen/Red+Hat+Display');
+    :root{
+      --primary-PB: hsl(225, 100%, 94%)
+      --primary-BB: hsl(245, 75%, 52%)
+    }
+
+body {
+ 
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 98%);
+  background-position: top;
+  
+  }
+
+p{
+  font-size: 16px;
+  
+}  
+
+.main{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 7em;
+  width: 20em;
+  
+}
+
+#img-top{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+ width: 20em;
+}
+
+.listing{
+  text-align:center;
+  padding: 1em;
+  
+}
+
+
+.plan{
+  background-color:hsl(225, 100%, 98%) ;
+  border-radius: 10px;
+  width: 18em;
+  height: inherit;
+  position: relative; 
+  margin-bottom: 1em;
+  display: flex;
+
+}
+
+#bottom-img{
+  position: absolute;
+  left: 1em;
+  top: 1em;
+}
+
+.bg-img{
+  position: relative;
+}
+
+.annual{
+  position: relative;
+  font-weight: bold;
+  left:6em;
+  top: 1.5em;
+  font-size: 14px;
+}
+
+.Fee{
+    position: relative;
+    top: 0.7em;
+    right: 1.8em;
+    padding: 2em; 
+    font-size: 15px;
+      
+}
+
+.change{
+  position: relative;
+  top: 2.5em;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.change:hover{
+  cursor: pointer;
+}
+
+.btn-proceed{
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  width: 21em;
+  height: 3em;
+  position: relative;
+  font-weight: bold;
+  box-shadow: 0px 10px 15px  hsl(224, 23%, 55%);
+  
+}
+
+.btn-proceed:hover{
+  cursor: pointer;
+  background-color: hsl(223, 47%, 23%);
+}
+
+.Cancel-btn{
+  
+  background-color: transparent;
+  color:hsl(224, 23%, 55%);
+  border: none;
+  font-weight: bold;
+  position: relative;
+  margin: 1em;
+}
+.Cancel-btn:hover{
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 1000px) {
+  body{
+    background-image: url(/Projects/newTwoGit/order-summary-component-main/images/pattern-background-desktop.svg);
+  }
+  
+}
+
+
+ </style>
+</head>
+
+
+
+<body>
+<div class="main">
+
+  <div class="container">
+    <div class="top-img">
+        <img id="img-top" src="/Projects/newTwoGit/order-summary-component-main/images/illustration-hero.svg" alt="" width="448px">
+    </div>
+    
+    
+<section class="middle">
+    <div class="listing">
+        <h2>Order Summary</h2>
+        <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+    </div>
+</section>
+
+<section class="bottom">
+    <div class="plan">
+        <img id="bottom-img" src="/Projects/newTwoGit/order-summary-component-main/images/icon-music.svg" alt="">
+        <div class="annual">Annual Plan</div>
+        <div class="Fee">$59.99/Year</div>
+        <div class="change"><a href="#">Change</a></div>
+    </div> 
+    
+   
+</section>
+
+<div>
+  <button class="btn-proceed" type="button">Proceed to Payment</button>
+</div>
+    <div class="cnl-order">
+      <button class="Cancel-btn" type="button">Cancel Order</button>
+    </div>
+  
+  </div>
+</div>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Duncan Leite</a>.
+  </div>
+</body>
+</html>
