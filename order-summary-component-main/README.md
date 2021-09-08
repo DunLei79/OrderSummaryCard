@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-![Design preview for the Order summary card coding challenge](newTwoGit\order-summary-component-main\screenshot\Capture.PNG)
+
 
 
 ## Table of contents
