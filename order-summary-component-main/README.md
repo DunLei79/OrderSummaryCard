@@ -28,7 +28,7 @@ First of many I hope...
 
 This was my first project I did (with no youtube tutorial) from start to finish. I started coding a month and a half ago, and this was helpful. Not only with coding but to setup Github account and having to learn git.   
 
-This helped me to wrap my head around the flexbox concept. Code is still sloppy, but I didn’t want to copy and paste anything. For the life of me I can`t get the red hat display font to work ☹. 
+This helped me to wrap my head around the flexbox concept. Code is still sloppy, but I didn’t want to copy and paste anything.  
 
 ### Useful resources
 
